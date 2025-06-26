@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  output: process.env.NEXT_PUBLIC_EXPORT_MODE === 'true' ? 'export' : undefined,
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -7,7 +8,6 @@ const nextConfig = {
     unoptimized: true,
     domains: ['cdn.builder.io']
   },
-  // Add Builder.io webpack configuration
   webpack: (config) => {
     config.resolve.fallback = {
       ...config.resolve.fallback,
@@ -15,8 +15,6 @@ const nextConfig = {
     };
     return config;
   },
-  // Make sure this line is NOT present:
-  // output: 'export',
 };
 
 module.exports = nextConfig;
