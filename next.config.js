@@ -15,6 +15,8 @@ const nextConfig = {
     };
     return config;
   },
+  // Make sure this line is NOT present:
+  // output: 'export',
 };
 
 module.exports = nextConfig;
