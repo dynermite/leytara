@@ -105,7 +105,7 @@ export const LeytaraServiceCard = ({
   return (
     <Card className="group hover:shadow-2xl transition-all duration-500 border-0 shadow-lg bg-gradient-to-br from-white to-teal-50/50 hover:scale-105">
       <CardContent className="p-8">
-        <div className={`w-16 h-16 bg-gradient-to-br ${gradientClasses[gradientFrom] || gradientClasses.teal} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
+        <div className={`w-16 h-16 bg-gradient-to-br ${gradientClasses[gradientFrom as keyof typeof gradientClasses] || gradientClasses.teal} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300`}>
           <IconComponent className="w-8 h-8 text-white" />
         </div>
         <h3 className="text-2xl font-bold mb-4 text-slate-900">{title}</h3>
@@ -134,7 +134,7 @@ export const LeytaraSectionHeader = ({
   };
 
   return (
-    <div className={`mb-16 ${alignmentClasses[alignment]}`}>
+    <div className={`mb-16 ${alignmentClasses[alignment as keyof typeof alignmentClasses]}`}>
       <h2 className="text-4xl md:text-5xl font-bold mb-6 bg-gradient-to-r from-slate-900 to-teal-900 bg-clip-text text-transparent">
         {title}
       </h2>
@@ -162,7 +162,7 @@ export const LeytaraCTA = ({
   };
 
   return (
-    <section className={`py-20 px-6 ${backgroundClasses[backgroundColor]}`}>
+    <section className={`py-20 px-6 ${backgroundClasses[backgroundColor as keyof typeof backgroundClasses]}`}>
       <div className="max-w-4xl mx-auto text-center">
         <h2 className={`text-4xl md:text-5xl font-bold mb-8 ${backgroundColor === 'dark' ? 'text-white' : 'bg-gradient-to-r from-slate-900 to-teal-900 bg-clip-text text-transparent'}`}>
           {title}
