@@ -44,7 +44,7 @@ export default function Home() {
               </h1>
               
               <p className="text-lg sm:text-xl text-slate-600 dark:text-slate-300 leading-relaxed mb-8">
-                We build AI agents that handle the tasks you don't want to do. From search marketing optimization to custom workflow automation, let intelligent systems work for you.
+                We build AI agents that handle the tasks you don&apos;t want to do. From search marketing optimization to custom workflow automation, let intelligent systems work for you.
               </p>
               
               <a
@@ -117,7 +117,7 @@ export default function Home() {
               Our Services
             </h2>
             <p className="text-xl text-slate-600 dark:text-slate-300 max-w-3xl mx-auto">
-              AI-powered solutions that handle the work you don't want to do
+              AI-powered solutions that handle the work you don&apos;t want to do
             </p>
           </div>
           
@@ -290,7 +290,7 @@ export default function Home() {
           </h2>
           <p className="text-xl text-teal-100 mb-8 max-w-2xl mx-auto">
             Stop wasting time on tasks that drain your energy. 
-            Let AI handle the work you don't want to do.
+            Let AI handle the work you don&apos;t want to do.
           </p>
           <a
             href="https://calendly.com/leytara-info/30min"
@@ -308,7 +308,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-8">
             <h3 className="text-2xl font-bold text-white mb-2">Leytara</h3>
-            <p className="text-slate-400 mb-4">AI agents for the tasks you don't want to do</p>
+            <p className="text-slate-400 mb-4">AI agents for the tasks you don&apos;t want to do</p>
             <a 
               href="mailto:info@leytara.com"
               className="text-teal-400 hover:text-teal-300 transition-colors duration-200"
