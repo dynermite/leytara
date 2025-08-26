@@ -15,6 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Leytara - AI Search Marketing & Workflow Automation",
   description: "We build AI agents that handle the tasks you don't want to do. From search marketing optimization to custom workflow automation, let AI work for you.",
+  icons: {
+    icon: '/favicon.svg',
+    shortcut: '/favicon.svg',
+    apple: '/favicon.svg',
+  },
 };
 
 export default function RootLayout({
